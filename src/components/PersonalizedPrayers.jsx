@@ -6,7 +6,7 @@ const PersonalizedPrayers = () => {
   const [currentTime, setCurrentTime] = useState(new Date());
   const [spiritualMood, setSpiritualMood] = useState('peaceful');
   const [currentRecommendation, setCurrentRecommendation] = useState(null);
-  const [userProgress, setUserProgress] = useState({
+  const [userProgress] = useState({
     prayersCompleted: 127,
     versesRead: 342,
     reflectionDays: 15,

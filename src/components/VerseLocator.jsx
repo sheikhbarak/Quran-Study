@@ -15,7 +15,7 @@ const VerseLocator = () => {
   const [favorites, setFavorites] = useState([]);
   const [highlighted, setHighlighted] = useState([]);
   const [showFavorites, setShowFavorites] = useState(false);
-  const [selectedVerse, setSelectedVerse] = useState(null);
+
   const [showMeaning, setShowMeaning] = useState({});
 
   // Comprehensive verse database
